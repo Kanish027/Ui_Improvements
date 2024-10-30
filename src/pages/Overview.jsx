@@ -11,9 +11,6 @@ const Overview = () => {
         <Landing />
       </div>
       <Features />
-      {/* <div className="lg:py-24 pb-20">
-        <ComingSoon />
-      </div> */}
       <FinalCall />
     </div>
   );
