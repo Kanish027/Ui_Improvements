@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -46,7 +47,7 @@ function About() {
               Elevate Your{" "}
               <span className="text-blue-800">Audio Experience</span>
             </h1>
-            <p className="text-base sm:text-lg">
+            <p className="text-lg text-gray-700 leading-relaxed text-justify">
               As we advance into the era of intelligent devices, our focus is on
               making AI an integral part of everyday life. By miniaturizing AI,
               we’re transforming how technology interacts with us — bringing
@@ -76,7 +77,34 @@ function About() {
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   alt="Pankaj Joshi"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                  <div className="flex gap-6 justify-center items-center h-full align-middle">
+                    <div className="transition-transform transform hover:scale-105">
+                      <Link
+                        to={""}
+                        className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
+                      >
+                        <i className="fa-brands text-2xl fa-linkedin text-gray-700"></i>
+                      </Link>
+                    </div>
+                    <div className="transition-transform transform hover:scale-105">
+                      <Link
+                        to={""}
+                        className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
+                      >
+                        <i className="fa-brands text-2xl fa-square-x-twitter text-gray-700"></i>
+                      </Link>
+                    </div>
+                    <div className="transition-transform transform hover:scale-105">
+                      <Link
+                        to={""}
+                        className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
+                      >
+                        <i className="fa-solid text-2xl fa-envelope text-gray-700"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="p-8 w-full lg:w-1/2 space-y-4">
                 <h1 className="text-gray-900 text-2xl font-semibold tracking-tight relative">
@@ -86,11 +114,23 @@ function About() {
                 <h2 className="text-blue-800 font-medium text-sm">
                   B. Tech IIT Kharagpur, MSEE Univ of Hawaii USA, MBA INSEAD.
                 </h2>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  In the last 20 years, Pankaj has been a part of 6 startups as
-                  an early employee, leadership team member, and founder CEO. He
-                  most recently led the product team at Meeamitech, focusing on
-                  deep learning-based Audio AI for voice and speech enhancement.
+                <p className="text-gray-600 text-sm text-justify leading-relaxed">
+                  Pankaj Joshi, the director at IPHIPI Technologies, brings over
+                  two decades of experience in technology innovation, product
+                  management, and strategic leadership, primarily in the areas
+                  of AI wearables, audio AI, and B2B tech solutions. He is the
+                  founder of IPHIPI, an AI wearable tech startup, and has
+                  previously held senior roles at Meeami Technologies, Contify,
+                  InsideView, and HelloSoft, among others. His expertise spans
+                  AI-driven product development, sales and marketing, and
+                  business strategy, with a track record of launching AI-powered
+                  hearables, building B2B SaaS products, and expanding global
+                  market footprints. Pankaj's work emphasizes cutting-edge tech,
+                  including DSPs, Edge AI, and low-power AI chips, aiming to
+                  make advanced AI accessible in everyday devices. With a strong
+                  foundation in both engineering and business, he holds a patent
+                  in transceiver design and has led teams in creating scalable,
+                  high-impact tech solutions across industries.
                 </p>
               </div>
             </div>
@@ -104,7 +144,7 @@ function About() {
             Advisors
           </h1>
         </div>
-        <div className="flex flex-col lg:flex-row gap-8 mx-5">
+        <div className="flex flex-col lg:flex-row gap-6 mx-5">
           {/* First Card */}
           <div className="group w-full lg:w-1/2 bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-500">
             <div className="flex flex-col lg:flex-row">
@@ -114,7 +154,34 @@ function About() {
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   alt="Sumita Thakur"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                  <div className="flex gap-6 justify-center items-center h-full align-middle">
+                    <div className="transition-transform transform hover:scale-105">
+                      <Link
+                        to={""}
+                        className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
+                      >
+                        <i className="fa-brands text-2xl fa-linkedin text-gray-700"></i>
+                      </Link>
+                    </div>
+                    <div className="transition-transform transform hover:scale-105">
+                      <Link
+                        to={""}
+                        className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
+                      >
+                        <i className="fa-brands text-2xl fa-square-x-twitter text-gray-700"></i>
+                      </Link>
+                    </div>
+                    <div className="transition-transform transform hover:scale-105">
+                      <Link
+                        to={""}
+                        className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
+                      >
+                        <i className="fa-solid text-2xl fa-envelope text-gray-700"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="p-8 w-full lg:w-1/2 space-y-4">
                 <h1 className="text-gray-900 text-2xl font-semibold tracking-tight relative">
@@ -124,7 +191,7 @@ function About() {
                 <h2 className="text-blue-800 font-medium text-sm">
                   B.Tech NIT Durgapur, MS University of Hawaii, USA
                 </h2>
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className="text-gray-600 text-sm leading-relaxed text-justify">
                   Sumita is currently head of Head - Programs & Outreach, School
                   of Innovation & Entrepreneurship, IIT Hyderabad. Successfully
                   launched multiple new products (programs), customer
@@ -143,7 +210,34 @@ function About() {
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   alt="Doug Makishima"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                  <div className="flex gap-6 justify-center items-center h-full align-middle">
+                    <div className="transition-transform transform hover:scale-105">
+                      <Link
+                        to={""}
+                        className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
+                      >
+                        <i className="fa-brands text-2xl fa-linkedin text-gray-700"></i>
+                      </Link>
+                    </div>
+                    <div className="transition-transform transform hover:scale-105">
+                      <Link
+                        to={""}
+                        className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
+                      >
+                        <i className="fa-brands text-2xl fa-square-x-twitter text-gray-700"></i>
+                      </Link>
+                    </div>
+                    <div className="transition-transform transform hover:scale-105">
+                      <Link
+                        to={""}
+                        className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
+                      >
+                        <i className="fa-solid text-2xl fa-envelope text-gray-700"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="p-8 w-full lg:w-1/2 space-y-4">
                 <h1 className="text-gray-900 text-2xl font-semibold tracking-tight relative">
@@ -153,7 +247,7 @@ function About() {
                 <h2 className="text-blue-800 font-medium text-sm">
                   CSMO & MD / President of Ecoblox Inc. USA
                 </h2>
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className="text-gray-600 text-sm leading-relaxed text-justify">
                   Doug Makishima is a seasoned C-level executive, startup
                   adviser, and angel investor with expertise in cloud-edge
                   computing, AI, wireless mobile communications, IoT, networking
