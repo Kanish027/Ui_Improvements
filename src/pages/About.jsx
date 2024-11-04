@@ -68,7 +68,7 @@ function About() {
         <div className="flex justify-center items-start">
           <h1 className="max-w-2xl heading text-center mb-16">Directors</h1>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center mx-5">
           <div className="group w-full lg:w-11/12 bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-500">
             <div className="flex flex-col lg:flex-row">
               <div className="relative w-full lg:w-1/2 overflow-hidden aspect-square">
@@ -81,23 +81,21 @@ function About() {
                   <div className="flex gap-6 justify-center items-center h-full align-middle">
                     <div className="transition-transform transform hover:scale-105">
                       <Link
-                        to={""}
+                        to={"https://www.linkedin.com/in/pankajoshi/"}
+                        target="blank"
                         className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
                       >
                         <i className="fa-brands text-2xl fa-linkedin text-gray-700"></i>
                       </Link>
                     </div>
                     <div className="transition-transform transform hover:scale-105">
-                      <Link
-                        to={""}
-                        className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
-                      >
+                      <Link className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300">
                         <i className="fa-brands text-2xl fa-square-x-twitter text-gray-700"></i>
                       </Link>
                     </div>
                     <div className="transition-transform transform hover:scale-105">
                       <Link
-                        to={""}
+                        to={"mailto:Marketing@iphipi.com"}
                         className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
                       >
                         <i className="fa-solid text-2xl fa-envelope text-gray-700"></i>
@@ -158,7 +156,8 @@ function About() {
                   <div className="flex gap-6 justify-center items-center h-full align-middle">
                     <div className="transition-transform transform hover:scale-105">
                       <Link
-                        to={""}
+                        to={"https://www.linkedin.com/in/sumita-thakur/"}
+                        target="blank"
                         className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
                       >
                         <i className="fa-brands text-2xl fa-linkedin text-gray-700"></i>
@@ -166,7 +165,8 @@ function About() {
                     </div>
                     <div className="transition-transform transform hover:scale-105">
                       <Link
-                        to={""}
+                        to={"https://x.com/thakur_sumita"}
+                        target="blank"
                         className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
                       >
                         <i className="fa-brands text-2xl fa-square-x-twitter text-gray-700"></i>
@@ -214,7 +214,8 @@ function About() {
                   <div className="flex gap-6 justify-center items-center h-full align-middle">
                     <div className="transition-transform transform hover:scale-105">
                       <Link
-                        to={""}
+                        to={"https://www.linkedin.com/in/dougkm/"}
+                        target="blank"
                         className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
                       >
                         <i className="fa-brands text-2xl fa-linkedin text-gray-700"></i>
@@ -222,7 +223,8 @@ function About() {
                     </div>
                     <div className="transition-transform transform hover:scale-105">
                       <Link
-                        to={""}
+                        to={"https://x.com/dmakishi"}
+                        target="blank"
                         className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
                       >
                         <i className="fa-brands text-2xl fa-square-x-twitter text-gray-700"></i>
